@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>board</title>
+    <style>
+        input:focus {
+            background-color: bisque;
+        }
+    </style>
+    <script>
+        function checkForm() {
+            if(document.forms.name.value==""){
+                alert("이름을 입력하세요");
+                document.forms.name.focus();
+                return false;
+            }else if(document.forms.subject.value==""){
+                alert("제목을 입력하세요");
+                document.forms.subject.focus();
+                return false;
+            }else if(document.forms.contents.value==""){
+                alert("내용을 입력하세요");
+                document.forms.contents.focus();
+                return false;
+            }else if(document.forms.pw.value==""){
+                alert("비밀번호을 입력하세요");
+                document.forms.pw.focus();
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="forms">
+        <table border="1">
+            <tr>
+                <td>이름</td>
+                <td><input type="text" id="name" name="name" autofocus ></td>
+            </tr>
+            <tr>
+                <td>제목</td>
+                <td><input type="text" id="subject" name="subject" placeholder="제목 입력" ></td>
+            </tr>
+            <tr>
+                <td>내용</td>
+                <td><textarea name="contents" id="contents" cols="30" rows="5" placeholder="내용 입력"></textarea></td>
+            </tr>
+            <tr>
+                <td>파일</td>
+                <td><input type="file" id="upload" name="upload"></td>
+            </tr>
+            <tr>
+                <td>비밀번호</td>
+                <td><input type="password" id="pw" name="pw" placeholder="input your PW"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button onclick="checkForm()">confirm</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
