@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>HTML 2</title>     
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            h1 {
+                padding: 0;
+                margin: 0;
+            }
+            #main-header{
+                border: 5px solid red;
+                text-align: center;
+            }
+            #main-navigation{
+                border: 5px solid blue;
+            }
+            #main-section{
+                border: 5px solid green;
+                text-align: center;
+            }
+            #main-aside{
+                border: 5px solid green;
+                text-align: center;
+            }
+            #main-footer{
+                border: 5px solid purple;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="page-wrapper">
+            <header id="main-header">
+                <hgroup>
+                    <h1 class="master-title">HTML5 Example Preview</h1>
+                    <h2 class="master-description">한빛아카데미</h2>
+                </hgroup>
+            </header>
+            <nav id="main-navigation">
+                <div class="pull-left">
+                    <ul class="outer-menu">
+                        <li class="outer-menu-item">
+                            <span class="menu-title">HTML5</span>
+                            <ul class="inner-menu">
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            </ul>
+                        </li>
+                        <li class="outer-menu-item">
+                            <span class="menu-title">CSS3</span>
+                            <ul class="inner-menu">
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            </ul>
+                        </li>
+                        <li class="outer-menu-item">
+                            <span class="menu-title">JavaScript</span>
+                            <ul class="inner-menu">
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                                <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pull-right">
+                    <div class="serch-bar">
+                        <form action="">
+                            <input type="text" class="input-search">
+                            <input type="submit" class="input-search-submit" value="검색">
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div id="content">
+                <section id="main-section">
+                    <article>
+                        <div class="article-header">
+                            <h1 class="article-title">HTML5 개요와 활용</h1>
+                            <p class="article-data">2019.02.14</p>
+                        </div>
+                        <div class="article-body">
+                            <img src="http://placehold.it/430x280">
+                            <br><br>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article-header">
+                            <h1 class="article-title">HTML5 응용과 실습</h1>
+                            <p class="article-data">2019.02.17</p>
+                        </div>
+                        <div class="article-body">
+                            <img src="http://placehold.it/430x280">
+                            <br>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </article>
+                </section>
+                <aside id="main-aside">
+                    <div class="aside-list">
+                        <h3>카테고리</h3>
+                        <ul>
+                            <li><a href="#">데이터</a></li>
+                            <li><a href="#">데이터</a></li>
+                            <li><a href="#">데이터</a></li>
+                            <li><a href="#">데이터</a></li>
+                            <li><a href="#">데이터</a></li>
+                        </ul>
+                    </div>
+                    <div class="aside-list">
+                        <h3>최신글</h3>
+                        <ul>
+                            <li><a href="#">데이터</a></li>
+                            <li><a href="#">데이터</a></li>
+                            <li><a href="#">데이터</a></li>
+                            <li><a href="#">데이터</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+            <footer id="main-footer">
+                <a href="#">ITCookBook HTML5 Programming</a>
+            </footer>
+        </div>
+    </body>
+</html>
