@@ -1,0 +1,49 @@
+.container{
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.content {
+    width: 740px;
+    height: 428px;
+    background-color: aquamarine;
+    float: left;
+    margin-bottom: 8px;
+}
+
+.side_content{
+    width:332px;
+    height: 428px;
+    background-color: rebeccapurple;
+    float: right;
+    margin-bottom: 8px;
+}
+
+.navbar {
+    float: left;
+    padding: 8px 0;
+}
+
+.navbar > li {
+    list-style-type: none;
+    float: left;
+    padding-left: 16px;
+}
+
+.navbar > li:first-child {
+    padding-left: 0px;
+}
+
+.rank {
+    float: right;
+    list-style-type: none;
+}
+
+.footer {
+    float: left;
+    background-color: gainsboro;
+    width: 100%;
+    height: 80px;
+}
